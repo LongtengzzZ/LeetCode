@@ -3,11 +3,11 @@ package december;
 public class LeetCode860 {
     public static void main(String[] args) {
         int[] a = {5,5,10,10,5,20,5,10,5,5};
-        System.out.println(Solution.lemonadeChange(a));
+        System.out.println(Solution860.lemonadeChange(a));
     }
 }
 
-class Solution {
+class Solution860 {
     public static boolean lemonadeChange(int[] bills) {
         int five = 0;
         int ten = 0;
